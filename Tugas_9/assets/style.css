@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    padding: 40px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #d81b60;
+}
+
+table {
+    margin: 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #d81b60;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fce4ec;
+}
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff0f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #d81b60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ad1457;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tambah-button {
+    text-decoration: none;
+    color: white;
+    background-color: #d81b60;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.tambah-button:hover {
+    background-color: #ad1457;
+}
